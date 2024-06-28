@@ -79,3 +79,4 @@ for i in range(10):
     t.start()
 q.join()
 print("encrytion and upload complete")
+input()
