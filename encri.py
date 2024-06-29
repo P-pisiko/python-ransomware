@@ -37,7 +37,7 @@ PORT = 6000
 
 # Encription information 
 ENCRYPTION_LEVEL = 64 # 512 // 8  64 bytes
-key_char_pool = "abcçdefgğhıijklmnoöprsştuüvyzABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ;<.>?[]/,~^$(|)"
+key_char_pool = "abcdefghijklmnoprstuvyzABCDEFGHIJKLMNOPRSTUVYZ;<.>?[]/,~^$(|)123456"
 key_char_pool_len = len(key_char_pool)
 
 # Dosyaları şifrelemek için dosya yollarını alıyoruz
